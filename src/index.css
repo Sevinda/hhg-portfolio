@@ -6,9 +6,16 @@ body {
   font-family: "Comfortaa", sans-serif;
   font-size: 16px;
   padding-inline: 100px;
-  background-color: #FFF0DE;
+  background-color: #fff0de;
   overflow-x: hidden;
   z-index: 100;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 640px) {
@@ -17,7 +24,9 @@ body {
   }
 }
 
-.font-playfair {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+@media screen and (min-width: 1620px) {
+  .image-stay {
+    /* top: 0; */
+    right: auto;
+  }
 }
