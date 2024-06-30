@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 16px;
+  padding-inline: 125px;
+  background-color: #FFF0DE;
+  overflow-x: hidden;
+  z-index: 100;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
