@@ -4,7 +4,7 @@ import { Buttons } from "./index.js";
 const Hero = () => {
   return (
     <div className="flex">
-      <div className="flex-1 max-md:mt-[20px] mt-[60px]">
+      <div className="max-md:mt-[20px] mt-[60px]">
         <p className="text-[17px] font-bold uppercase text-[#30B0C7]">
           content creator | Dancer | choreographer
         </p>
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex-1 mt-[50px]">
+      <div className="mt-[50px]">
         <img
           src="/images/heroImage.png"
           alt="svg design"
