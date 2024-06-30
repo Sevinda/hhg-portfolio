@@ -4,7 +4,7 @@ import { Buttons } from "./index.js";
 const Hero = () => {
   return (
     <div className="flex">
-      <div className="pt-[75px]">
+      <div className="max-md:mt-[20px] mt-[60px]">
         <p className="text-[20px] font-bold uppercase text-[#30B0C7]">
           content creator | Dancer | choreographer
         </p>
@@ -33,7 +33,7 @@ const Hero = () => {
         <img
           src="/images/heroImage.png"
           alt="svg design"
-          className="absolute top-0 right-0 z-[-10] object-contain h-[650px]"
+          className="absolute top-0 right-0 z-[-10] object-contain max-xl:hidden xl:h-[650px]"
         />
       </div>
     </div>
